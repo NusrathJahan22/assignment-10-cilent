@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     return (
         <div className="flex justify-between font-bold shadow-xl my-5 p-4 ">
-<h2>Automotive</h2>
+<h2 className='text-red-600 '>Automotive</h2>
 
             <nav>
             <div>
@@ -15,7 +15,7 @@ const Navbar = () => {
 <NavLink
   to="/"
   className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "active" : ""
+    isPending ? "pending" : isActive ? "text-red-600 underline" : ""
   }
 >
   Home
@@ -25,7 +25,7 @@ const Navbar = () => {
 <NavLink
   to="/addproduct"
   className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "active" : ""
+    isPending ? "pending" : isActive ? "text-red-600 underline" : ""
   }
 >
   Add-Product
@@ -35,7 +35,7 @@ const Navbar = () => {
 <NavLink
   to="/mycart"
   className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "active" : ""
+    isPending ? "pending" : isActive ? "text-red-600 underline" : ""
   }
 >
   My-Cart
@@ -45,7 +45,7 @@ const Navbar = () => {
 <NavLink
   to="/login"
   className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "active" : ""
+    isPending ? "pending" : isActive ? "text-red-600 underline" : ""
   }
 >
   Login

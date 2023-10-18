@@ -1,10 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const AllBrand = () => {
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 mt-20'>
+        <div>
+        <h2 className='text-4xl font-bold text-center text-red-800 mt-10'>CHOOSE THE BRAND</h2>
+          <Link to="/login">
+          <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 mt-20'>
            <div className="card card-compact w-96 bg-base-100 shadow-xl">
-  <figure><img src="https://i.ibb.co/jVqYrH2/toyota.jpg" alt="" /></figure>
+  <figure><img src="https://i.ibb.co/J3k8My6/download.png" alt="" /></figure>
   <div className="card-body">
     
     <div className="card-actions justify-center">
@@ -14,7 +18,7 @@ const AllBrand = () => {
 </div>
 {/* card 2  */}
 <div className="card card-compact w-96 bg-base-100 shadow-xl">
-  <figure><img src="https://i.ibb.co/C24xK8v/ford.jpg" alt="" /></figure>
+  <figure><img src="https://i.ibb.co/Y3d5c8j/for-d-3.jpg" alt="" /></figure>
   <div className="card-body">
     
     <div className="card-actions justify-center">
@@ -24,7 +28,7 @@ const AllBrand = () => {
 </div>
 {/* card 3 */}
 <div className="card card-compact w-96 bg-base-100 shadow-xl">
-  <figure><img src="https://i.ibb.co/dr3jz7Z/honda.jpg" alt="" /></figure>
+  <figure><img src="https://i.ibb.co/tsmX7pm/hunda-2.jpg" alt="" /></figure>
   <div className="card-body">
     
     <div className="card-actions justify-center">
@@ -33,18 +37,18 @@ const AllBrand = () => {
   </div>
 </div>
 {/* card 4 */}
-<div className="card card-compact w-96 bg-base-100 shadow-xl">
-  <figure><img src="https://i.ibb.co/BjYwz8v/mercedes-benz.jpg" alt="" /></figure>
+<div className="card card-compact w-96 bg-base-100 shadow-xl flex-grow">
+  <figure><img src="https://i.ibb.co/0BrM7Yx/bamz-2.png" alt="" /></figure>
   <div className="card-body">
     
-    <div className="card-actions justify-center">
+    <div className="card-actions justify-center mt-20">
       <button className="btn bg-rose-500 w-full">Mercedes-Benz</button>
     </div>
   </div>
 </div>
 {/* card 5 */}
 <div className="card card-compact w-96 bg-base-100 shadow-xl">
-  <figure><img src="https://i.ibb.co/p1LYcyw/tesla.jpg" alt="" /></figure>
+  <figure><img src="https://i.ibb.co/3BXCCdg/tesla-2.webp" alt="" /></figure>
   <div className="card-body">
     
     <div className="card-actions justify-center">
@@ -53,7 +57,7 @@ const AllBrand = () => {
   </div>
 </div>
 <div className="card card-compact w-96 bg-base-100 shadow-xl">
-  <figure><img src="https://i.ibb.co/D5T190D/bmw.jpg" alt="" /></figure>
+  <figure><img src="https://i.ibb.co/mTYVZbs/bmw.png" alt="" /></figure>
   <div className="card-body">
     
     <div className="card-actions justify-center">
@@ -61,6 +65,8 @@ const AllBrand = () => {
     </div>
   </div>
 </div>
+        </div>
+          </Link>
         </div>
     );
 };

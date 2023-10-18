@@ -1,10 +1,19 @@
 import React from 'react';
 
 const Login = () => {
+  const handleLogin= e =>{
+e.preventDefault()
+const form = e.target;
+const name =form.name.value;
+const email =form.email.value;
+const password =form.password.value;
+const doLogin={name,email,password}
+console.log(doLogin);
+  }
     return (
         <div>
            <p className='text-5xl text-center font-bold '>Please Login </p>
-           <form   className='md:w-3/4 lg:w-1/2 mx-auto'>
+           <form  onSubmit={handleLogin} className='md:w-3/4 lg:w-1/2 mx-auto'>
            <div className="form-control">
           <label className="label">
             <span className="label-text">Name</span>

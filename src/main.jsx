@@ -11,6 +11,7 @@ import Main from './componets/Main';
 import AddProduct from './componets/AddProduct';
 import MyCart from './componets/MyCart';
 import Login from './componets/Login';
+import Clicktime from './componets/Clicktime';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,11 @@ element:<AddProduct></AddProduct>
       path:"/login",
       element:<Login></Login>
     },
+    {
+      path:"/clicktime",
+      element:<Clicktime></Clicktime>,
+      
+    }
     ]
   },
 ]);

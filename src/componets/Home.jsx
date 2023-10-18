@@ -1,6 +1,7 @@
 import React from 'react';
 import AllBrand from './AllBrand';
 import UsedCar from './UsedCar';
+import Forhome from './Forhome';
 
 const Home = () => {
     return (
@@ -15,8 +16,10 @@ const Home = () => {
     </div>
   </div>
 </div>
+<Forhome></Forhome>
 <AllBrand></AllBrand>
 <UsedCar></UsedCar>
+
         </div>
     );
 };
