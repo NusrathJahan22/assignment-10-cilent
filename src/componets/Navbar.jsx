@@ -6,7 +6,11 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     return (
         <div className="flex justify-between font-bold shadow-xl my-5 p-4 ">
+<div className='flex gap-3'>
+
+<img src="https://i.ibb.co/7Y1PHxx/car-logo-4.png" alt="" className='w-8 h-8 bg-red-600' />
 <h2 className='text-red-600 '>Automotive</h2>
+</div>
 
             <nav>
             <div>

@@ -16,8 +16,9 @@ const Home = () => {
     </div>
   </div>
 </div>
-<Forhome></Forhome>
+
 <AllBrand></AllBrand>
+<Forhome></Forhome>
 <UsedCar></UsedCar>
 
         </div>
