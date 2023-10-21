@@ -1,70 +1,202 @@
-{
-    "products": [
-      {
-        "id": 1,
-        "image": "car-image-1.jpg",
-        "name": "Honda Civic",
-        "brand_name": "Honda",
-        "type": "Car",
-        "price": 25999.99,
-        "rating": 4.5,
-        "details_button": "/car/honda-civic/details",
-        "update_button": "/car/honda-civic/update"
-      },
-      {
-        "id": 2,
-        "image": "car-image-2.jpg",
-        "name": "Tesla Model 3",
-        "brand_name": "Tesla",
-        "type": "Car",
-        "price": 39999.99,
-        "rating": 4.8,
-        "details_button": "/car/tesla-model-3/details",
-        "update_button": "/car/tesla-model-3/update"
-      },
-      {
-        "id": 3,
-        "image": "car-image-3.jpg",
-        "name": "Toyota Camry",
-        "brand_name": "Toyota",
-        "type": "Car",
-        "price": 28999.99,
-        "rating": 4.4,
-        "details_button": "/car/toyota-camry/details",
-        "update_button": "/car/toyota-camry/update"
-      },
-      {
-        "id": 4,
-        "image": "car-image-4.jpg",
-        "name": "Ford Mustang",
-        "brand_name": "Ford",
-        "type": "Car",
-        "price": 44999.99,
-        "rating": 4.7,
-        "details_button": "/car/ford-mustang/details",
-        "update_button": "/car/ford-mustang/update"
-      },
-      {
-        "id": 5,
-        "image": "car-image-5.jpg",
-        "name": "Chevrolet Silverado",
-        "brand_name": "Chevrolet",
-        "type": "Truck",
-        "price": 34999.99,
-        "rating": 4.6,
-        "details_button": "/truck/chevrolet-silverado/details",
-        "update_button": "/truck/chevrolet-silverado/update"
-      },
-      {
-        "id": 6,
-        "image": "car-image-6.jpg",
-        "name": "BMW 3 Series",
-        "brand_name": "BMW",
-        "type": "Car",
-        "price": 45999.99,
-        "rating": 4.9,
-        "details_button": "/car/bmw-3-series/details",
-        "update_button": "/car/bmw-3-series/update"
-      }
-    ]
+[
+  {
+    "_id": "1",
+    "Name": "Car",
+    "Brand": "Toyota",
+    "Type": "xl",
+    "Price": "2000$",
+    "Description": "Toyota Motor Corp (Toyota) is an automobile manufacturer. The company ...",
+    "Rating": "4.8",
+    "Photo": "https://i.ibb.co/jVqYrH2/toyota.jpg"
+  },
+  {
+    "_id": "2",
+    "Name": "Car",
+    "Brand": "Toyota",
+    "Type": "kllxcl",
+    "Price": "2500$",
+    "Description": "Toyota Motor Corp (Toyota) is an automobile manufacturer. The company ...",
+    "Rating": "4.7",
+    "Photo": "https://i.ibb.co/G3MVhBK/TOYTOTA-2.jpg"
+  },
+  {
+    "_id": "3",
+    "Name": "Car",
+    "Brand": "Toyota",
+    "Type": "kqwecvl",
+    "Price": "2900$",
+    "Description": "Toyota Motor Corp (Toyota) is an automobile manufacturer. The company ...",
+    "Rating": "4.5",
+    "Photo": "https://i.ibb.co/VQzKbn9/TOYOTA-4.jpg"
+  },
+  {
+    "_id": "4",
+    "Name": "Car",
+    "Brand": "Toyota",
+    "Type": "kqwecop",
+    "Price": "3900$",
+    "Description": "Toyota Motor Corp (Toyota) is an automobile manufacturer. The company ...",
+    "Rating": "4.2",
+    "Photo": "https://i.ibb.co/7nd28Pz/TOYOTA-3.jpg"
+  },
+  {
+    "_id": "5",
+    "Name": "Ford Car",
+    "Brand": "Ford",
+    "Type": "qwxdrfgh",
+    "Price": "4900$",
+    "Description": "Ford Motor Co (Ford) is an automotive company, which designs, manufact...",
+    "Rating": "5.1",
+    "Photo": "https://i.ibb.co/0MkSZTx/FORD-3.jpg"
+  },
+  {
+    "_id": "6",
+    "Name": "Ford Car",
+    "Brand": "Ford",
+    "Type": "aswderfcvtg",
+    "Price": "4300$",
+    "Description": "Ford Motor Co (Ford) is an automotive company, which designs, manufact...",
+    "Rating": "5.7",
+    "Photo": "https://i.ibb.co/fDYGNpz/FORD-2.jpg"
+  },
+  {
+    "_id": "7",
+    "Name": "Ford Car",
+    "Brand": "Ford",
+    "Type": "azxscedfvr",
+    "Price": "5900$",
+    "Description": "Ford Motor Co (Ford) is an automotive company, which designs, manufact...",
+    "Rating": "5.9",
+    "Photo": "https://i.ibb.co/Lhw4R8v/FORD-4.jpg"
+  },
+  {
+    "_id": "8",
+    "Name": "Ford Car",
+    "Brand": "Ford",
+    "Type": "aqzwxsd",
+    "Price": "5200$",
+    "Description": "Ford Motor Co (Ford) is an automotive company, which designs, manufact...",
+    "Rating": "9.4",
+    "Photo": "https://i.ibb.co/z6hnvKY/FORD-1.jpg"
+  },
+  {
+    "_id": "9",
+    "Name": "BMW Car",
+    "Brand": "BMW",
+    "Type": "asdfgh",
+    "Price": "6700$",
+    "Description": "BMW, in full Bayerische Motoren Werke AG, German automaker noted for q...",
+    "Rating": "6.2",
+    "Photo": "https://i.ibb.co/hYnTgnv/BMW-5.jpg"
+  },
+  {
+    "_id": "10",
+    "Name": "BMW Car",
+    "Brand": "BMW",
+    "Type": "asdfghj",
+    "Price": "6900$",
+    "Description": "BMW, in full Bayerische Motoren Werke AG, German automaker noted for q...",
+    "Rating": "6.9",
+    "Photo": "https://i.ibb.co/sqpfs71/BMW-4.jpg"
+  },
+  {
+    "_id": "11",
+    "Name": "BMW Car",
+    "Brand": "BMW",
+    "Type": "asdfgqwer",
+    "Price": "4500$",
+    "Description": "BMW, in full Bayerische Motoren Werke AG, German automaker noted for q...",
+    "Rating": "7.9",
+    "Photo": "https://i.ibb.co/YcSTszX/BMW-3.jpg"
+  },
+  {
+    "_id": "12",
+    "Name": "BMW Car",
+    "Brand": "BMW",
+    "Type": "asdqwerty",
+    "Price": "4700$",
+    "Description": "BMW, in full Bayerische Motoren Werke AG, German automaker noted for q...",
+    "Rating": "7.3",
+    "Photo": "https://i.ibb.co/j8WhZX8/BMW-2.jpg"
+  },
+  {
+    "_id": "13",
+    "Name": "Tesla Car",
+    "Brand": "Tesla",
+    "Type": "asdfghqwerty",
+    "Price": "9700$",
+    "Description": "Our energy generation and storage products work together with our elec...",
+    "Rating": "5.7",
+    "Photo": "https://i.ibb.co/L95BGfT/TESLA-5.jpg"
+  },
+  {
+    "_id": "14",
+    "Name": "Tesla Car",
+    "Brand": "Tesla",
+    "Type": "asdfghqwerty",
+    "Price": "7700$",
+    "Description": "Our energy generation and storage products work together with our elec...",
+    "Rating": "5.7",
+    "Photo": "https://i.ibb.co/pLNNq1W/TESLA-4.jpg"
+  },
+  {
+    "_id": "15",
+    "Name": "Tesla Car",
+    "Brand": "Tesla",
+    "Type": "asdzxcv",
+    "Price": "3700$",
+    "Description": "Our energy generation and storage products work together with our elec...",
+    "Rating": "4.7",
+    "Photo": "https://i.ibb.co/BcsR5X9/TESLA-3.jpg"
+  },
+  {
+    "_id": "16",
+    "Name": "Mersedes-Banz Car",
+    "Brand": "Mersedes-Banz",
+    "Type": "azsxdcfv",
+    "Price": "8700$",
+    "Description": "Mercedes-Benz (German pronunciation: [mɛʁˈtseːdəs ˈbɛnts]) is a brand ...",
+    "Rating": "9.4",
+    "Photo": "https://i.ibb.co/VHLT8zD/MERCEDES-4.jpg"
+  },
+  {
+    "_id": "17",
+    "Name": "Mersedes-Banz Car",
+    "Brand": "Mersedes-Banz",
+    "Type": "azsxdcfvgb",
+    "Price": "8700$",
+    "Description": "Mercedes-Benz (German pronunciation: [mɛʁˈtseːdəs ˈbɛnts]) is a brand ...",
+    "Rating": "9.3",
+    "Photo": "https://i.ibb.co/12KxGvC/MARCEDES-2.jpg"
+  },
+  {
+    "_id": "18",
+    "Name": "Mersedes-Banz Car",
+    "Brand": "Mersedes-Banz",
+    "Type": "aswxsdfvgb",
+    "Price": "9700$",
+    "Description": "Mercedes-Benz (German pronunciation: [mɛʁˈtseːdəs ˈbɛnts]) is a brand ...",
+    "Rating": "9.3",
+    "Photo": "https://i.ibb.co/tYGCw5h/MARCEDES-1.jpg"
+  },
+  {
+    "_id": "19",
+    "Name": "Honda Car",
+    "Brand": "Honda",
+    "Type": "asdfgzxcvbnmb",
+    "Price": "9700$",
+    "Description": "Mercedes-Benz (German pronunciation: [mɛʁˈtseːdəs ˈbɛnts]) is a brand ...",
+    "Rating": "9.3",
+    "Photo": "https://i.ibb.co/3knnCQS/HONDA-4.jpg"
+  },
+  {
+    "_id": "20",
+    "Name": "Honda Car",
+    "Brand": "Honda",
+    "Type": "asdfgzxcvbnmb",
+    "Price": "3700$",
+    "Description": "Honda became the second-largest Japanese automobile manufacturer in 20...",
+    "Rating": "9.3",
+    "Photo": "https://i.ibb.co/551HDnW/HONDA-5.jpg"
   }
+]

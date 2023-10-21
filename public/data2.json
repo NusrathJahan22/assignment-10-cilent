@@ -1,0 +1,63 @@
+[
+    {
+      "_id": "23",
+      "Name": "Mercedes-Benz Car",
+      "Brand": "Mercedes-Benz",
+      "Type": "Sedan",
+      "Price": "7500$",
+      "Description": "Mercedes-Benz is a German luxury automobile manufacturer known for its high-quality vehicles.",
+      "Rating": "8.5",
+      "Photo": "https://i.ibb.co/0BrM7Yx/bamz-2.png"
+    },
+    {
+      "_id": "24",
+      "Name": "Tesla Car",
+      "Brand": "Tesla",
+      "Type": "Electric",
+      "Price": "8500$",
+      "Description": "Tesla is an electric vehicle and clean energy company led by innovation and sustainability.",
+      "Rating": "9.0",
+      "Photo": "https://i.ibb.co/3BXCCdg/tesla-2.webp"
+    },
+    {
+      "_id": "25",
+      "Name": "BMW Car",
+      "Brand": "BMW",
+      "Type": "SUV",
+      "Price": "6800$",
+      "Description": "BMW is a German automaker noted for its luxury and performance-oriented vehicles.",
+      "Rating": "7.5",
+      "Photo": "https://i.ibb.co/mTYVZbs/bmw.png"
+    },
+    {
+      "_id": "26",
+      "Name": "Honda Car",
+      "Brand": "Honda",
+      "Type": "Compact",
+      "Price": "4200$",
+      "Description": "Honda is a Japanese automobile manufacturer known for reliability and efficiency.",
+      "Rating": "7.0",
+      "Photo": "https://i.ibb.co/tsmX7pm/hunda-2.jpg"
+    },
+    {
+      "_id": "27",
+      "Name": "Toyota Car",
+      "Brand": "Toyota",
+      "Type": "Hybrid",
+      "Price": "4900$",
+      "Description": "Toyota is a global automobile manufacturer with a focus on innovation and sustainability.",
+      "Rating": "8.0",
+      "Photo": "https://i.ibb.co/J3k8My6/download.png"
+    },
+    {
+      "_id": "28",
+      "Name": "Ford Car",
+      "Brand": "Ford",
+      "Type": "Truck",
+      "Price": "5500$",
+      "Description": "Ford is an American automaker known for its rugged and versatile vehicles.",
+      "Rating": "6.5",
+      "Photo": "https://i.ibb.co/Y3d5c8j/for-d-3.jpg"
+    }
+  ]
+  

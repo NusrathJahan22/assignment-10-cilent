@@ -16,6 +16,8 @@ import PrivateRoute from './componets/PrivateRoute';
 import Toyota from './page/Toyota';
 import ToyotaCard from './page/ToyotaCard';
 import AuthProvider from './Provider/AuthProvider';
+import BMW from './page/BMW';
+import BrandCar from './componets/BrandCar';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,7 @@ const router = createBrowserRouter([
     children:[{
       path:"/",
       element:<Home></Home>,
+      loader:()=>fetch('/data2.json')
     },
     {
       path:"/addProduct",
@@ -48,14 +51,11 @@ const router = createBrowserRouter([
       element:<PrivateRoute></PrivateRoute>
     },
     {
-      path:"/toyota",
-      element:<Toyota></Toyota>,
-      loader:() => fetch ('http://localhost:5000/carshop')
+      path:"/details/${brandName}",
+      element:<BrandCar></BrandCar>
     },
-    // {
-    //   path:"toyotaCard",
-    //   element:<ToyotaCard></ToyotaCard>
-    // }
+    
+   
     ]
   },
 ]);
