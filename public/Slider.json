@@ -1,0 +1,105 @@
+[
+    {
+      "Brand": "Toyota",
+      "brandSliders": [
+        {
+          "brandImageSliderId": 1,
+          "brandSliderImg": "https://i.postimg.cc/vZYJpJFh/images.jpg",
+          "brandSliderTitle": "Explore Toyota Deals",
+          "brandSliderDescription": "Discover amazing discounts and offers on Toyota products."
+        },
+        {
+          "brandImageSliderId": 2,
+          "brandSliderImg": "https://i.postimg.cc/gJ2rjSZH/images.jpg",
+          "brandSliderTitle": "Toyota Prime Membership",
+          "brandSliderDescription": "Get the benefits of Toyota Prime, including fast shipping and exclusive content."
+        }
+      ]
+    },
+    {
+      "Brand": "Ford",
+      "brandSliders": [
+        {
+          "brandImageSliderId": 1,
+          "brandSliderImg": "https://i.postimg.cc/63q19ZB1/download.jpg",
+          "brandSliderTitle": "Ford Rollback Savings",
+          "brandSliderDescription": "Save on everyday essentials with Ford's rollback prices."
+        },
+        {
+          "brandImageSliderId": 2,
+          "brandSliderImg": "https://i.postimg.cc/KvfqgQ4s/images.jpg",
+          "brandSliderTitle": "Back to School Shopping",
+          "brandSliderDescription": "Get ready for school with great deals on supplies at Ford."
+        }
+      ]
+    },
+    {
+      "Brand": "BMW",
+      "brandSliders": [
+        {
+          "brandImageSliderId": 1,
+          "brandSliderImg": "https://i.postimg.cc/m24ZrZFy/download.jpg",
+          "brandSliderTitle": "Global Wholesale Marketplace",
+          "brandSliderDescription": "Connect with suppliers and manufacturers from around the world on BMW."
+        },
+        {
+          "brandImageSliderId": 2,
+          "brandSliderImg": "https://i.postimg.cc/m24ZrZFy/download.jpg",
+          "brandSliderTitle": "Global Wholesale Marketplace",
+          "brandSliderDescription": "Connect with suppliers and manufacturers from around the world on BMW."
+        }
+      ]
+    },
+    {
+      "Brand": "Mercedes-Benz",
+      "brandSliders": [
+        {
+          "brandImageSliderId": 1,
+          "brandSliderImg": "https://i.postimg.cc/sfcqp3Nc/download.png",
+          "brandSliderTitle": "Source Millions of Products",
+          "brandSliderDescription": "Find a vast range of products for your business on Mercedes-Benz's platform."
+        },
+        {
+          "brandImageSliderId": 2,
+          "brandSliderImg": "https://i.postimg.cc/htFLvd13/download.jpg",
+          "brandSliderTitle": "Mercedes-Benz Trade Assurance",
+          "brandSliderDescription": "Enjoy secure online ordering and payment protection with Mercedes-Benz Trade Assurance."
+        }
+      ]
+    },
+    {
+      "Brand": "Tesla",
+      "brandSliders": [
+        {
+          "brandImageSliderId": 1,
+          "brandSliderImg": "https://i.postimg.cc/bN1Ljh7n/download.jpg",
+          "brandSliderTitle": "Tesla Auctions",
+          "brandSliderDescription": "Participate in exciting online auctions on Tesla."
+        },
+        {
+          "brandImageSliderId": 2,
+          "brandSliderImg": "https://i.postimg.cc/GmqFchq4/download.jpg",
+          "brandSliderTitle": "Tesla Deals & Promotions",
+          "brandSliderDescription": "Find great deals and special promotions on Tesla's marketplace."
+        }
+      ]
+    },
+    {
+      "Brand": "Honda",
+      "brandSliders": [
+        {
+          "brandImageSliderId": 1,
+          "brandSliderImg": "https://i.postimg.cc/Kvc4m7V5/download.png",
+          "brandSliderTitle": "Honda Circle Rewards",
+          "brandSliderDescription": "Join Honda Circle to earn rewards and save more on your purchases."
+        },
+        {
+          "brandImageSliderId": 2,
+          "brandSliderImg": "https://i.postimg.cc/Kvc4m7V5/download.png",
+          "brandSliderTitle": "Back to School at Honda",
+          "brandSliderDescription": "Get ready for the school year with Honda's back-to-school supplies and clothing."
+        }
+      ]
+    }
+  ]
+  

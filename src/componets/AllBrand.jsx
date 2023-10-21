@@ -5,7 +5,7 @@ const AllBrand = ({ brand }) => {
 
   const { Brand, Photo, Name } = brand
   return (
-    <NavLink to={`/details/${brandName}`}>
+    <NavLink to={`/cardetails/${Brand}`}>
       <div>
 
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -16,7 +16,7 @@ const AllBrand = ({ brand }) => {
           </div>
         </div>
       </div>
-    </NavLink>
+     </NavLink>
   );
 };
 

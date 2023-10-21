@@ -1,8 +1,9 @@
-# React + Vite
+# Automotive Car Company 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1.I install all needed file 
+2.Make to site server site and client side  
+3.In home page add 6 sections 
+4.In home page have more router 
+5.And have brand name card
+6.With clicking brand name you can see more about this brand so on
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

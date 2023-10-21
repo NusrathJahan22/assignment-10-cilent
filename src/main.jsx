@@ -11,12 +11,11 @@ import Main from './componets/Main';
 import AddProduct from './componets/AddProduct';
 import MyCart from './componets/MyCart';
 import Login from './componets/Login';
-import Clicktime from './componets/Clicktime';
+
 import PrivateRoute from './componets/PrivateRoute';
-import Toyota from './page/Toyota';
-import ToyotaCard from './page/ToyotaCard';
+
 import AuthProvider from './Provider/AuthProvider';
-import BMW from './page/BMW';
+
 import BrandCar from './componets/BrandCar';
 
 const router = createBrowserRouter([
@@ -41,19 +40,22 @@ const router = createBrowserRouter([
       path:"/login",
       element:<Login></Login>
     },
-    {
-      path:"/clicktime",
-      element:<Clicktime></Clicktime>,
+    // {
+    //   path:"/clicktime",
+    //   element:<Clicktime></Clicktime>,
       
-    },
+    // },
     {
       path:"/privateRoute",
       element:<PrivateRoute></PrivateRoute>
     },
+    
     {
-      path:"/details/${brandName}",
-      element:<BrandCar></BrandCar>
-    },
+      path: "/cardetails/:Brand",
+      element: <BrandCar />,
+      loader:({params}) => fetch(`http://localhost:5000/cardetails/${params.Brand}`)
+      
+    }
     
    
     ]
