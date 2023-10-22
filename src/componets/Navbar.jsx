@@ -1,9 +1,11 @@
-import React from 'react';
+import { useContext } from 'react';
 import { NavLink } from "react-router-dom";
+import { AuthContext } from '../Provider/AuthProvider';
 
 
 
 const Navbar = () => {
+  const {user, logout} = useContext(AuthContext);
     return (
         <div className="flex justify-between font-bold shadow-xl my-5 p-4 ">
 <div className='flex gap-3'>
@@ -55,9 +57,26 @@ const Navbar = () => {
   Login
 </NavLink>
 </li>
+<li>
+<NavLink
+  to="/Register"
+  className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "text-red-600 underline" : ""
+  }
+>
+  Register
+</NavLink>
+</li>
 </ul>
+
             </div>
             </nav>
+            <div>
+              {
+                user && <span>{user.email}</span>
+              }
+            <button className='btn btn-sm'>Sign Out</button>
+            </div>
         </div>
     );
 };

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Swal from 'sweetalert2'
 
 const AddProduct = () => {
@@ -13,33 +13,37 @@ const AddProduct = () => {
         const Rating = form.Rating.value;
         const Photo = form.Photo.value;
 
-        const addProduct = {
+        const cart = {
             Name, Brand, Type, Price, Description, Rating, Photo
         }
-        console.log(addProduct);
+        console.log(cart);
 
 
-        fetch('http://localhost:5000/carshop', {
-            method: 'POST',
+        fetch(`http://localhost:5000/cart`, {
+            method: "POST",
             headers: {
-                'content-type': 'application/json'
+                "Content-Type": "application/json",
             },
-            body: JSON.stringify(addProduct)
+            body: JSON.stringify(cart),
         })
-            .then(res => res.json())
-            .then(data => {
-                console.log(data)
-                if (data.insertedId) 
-                    Swal.fire({
-                        title: 'success!',
-                        text: 'user added successfully',
-                        icon: 'success',
-                        confirmButtonText: 'OK'
-                    })
-                }
-            )}
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+          form.reset();
+            if (data.insertedId) {
+              Swal.fire({
+                title: "Success!",
+                text: "product Added Successfully",
+                icon: "success",
+                confirmButtonText: "Cool",
+              });
+            }  
+        
+        });
 
-    
+    }
+
+
     return (
         <div className='font-bold text-center m-10 p-4 text-red-600'>
             <h3 className='text-4xl'>Add Products</h3>
