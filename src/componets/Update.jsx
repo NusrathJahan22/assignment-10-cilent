@@ -27,7 +27,7 @@ const {id} = useParams()
         console.log(updatedCart)
 
         fetch(
-            `http://localhost:5000/cart/${id}`,
+            `https://assignment-10-server-acuzi24t1-nusrathjahan22s-projects.vercel.app/cart/${id}`,
             {
               method: "PUT",
               headers: {

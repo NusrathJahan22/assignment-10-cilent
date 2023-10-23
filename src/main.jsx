@@ -38,7 +38,7 @@ const router = createBrowserRouter([
     {
       path: "/mycart",
       element: <MyCart></MyCart>,
-      loader:() =>fetch('http://localhost:5000/addcard')
+      loader:() =>fetch('https://assignment-10-server-acuzi24t1-nusrathjahan22s-projects.vercel.app/addcard')
     },
     {
       path: "/login",
@@ -51,7 +51,7 @@ const router = createBrowserRouter([
     {
       path: '/details/:id',
       element: <Details></Details>,
-      loader: ({ params }) => fetch(`http://localhost:5000/cart/${params.id}`)
+      loader: ({ params }) => fetch(`https://assignment-10-server-acuzi24t1-nusrathjahan22s-projects.vercel.app/cart/${params.id}`)
     },
     {
       path: "/privateRoute",
@@ -61,13 +61,13 @@ const router = createBrowserRouter([
     {
       path: "/cardetails/:Brand",
       element: <BrandCar />,
-      loader: ({ params }) => fetch(`http://localhost:5000/cardetails/${params.Brand}`)
+      loader: ({ params }) => fetch(`https://assignment-10-server-acuzi24t1-nusrathjahan22s-projects.vercel.app/cardetails/${params.Brand}`)
 
     },
     {
       path: "/update/:id",
       element: <Update></Update>,
-      loader: ({ params }) => fetch(`http://localhost:5000/cart/${params.id}`)
+      loader: ({ params }) => fetch(`https://assignment-10-server-acuzi24t1-nusrathjahan22s-projects.vercel.app/cart/${params.id}`)
     }
 
 

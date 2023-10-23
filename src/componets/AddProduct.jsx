@@ -19,7 +19,7 @@ const AddProduct = () => {
         console.log(cart);
 
 
-        fetch(`http://localhost:5000/cart`, {
+        fetch(`https://assignment-10-server-acuzi24t1-nusrathjahan22s-projects.vercel.app/cart`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

@@ -16,7 +16,7 @@ const DataCart = ({ cart }) => {
             if (result.isConfirmed) {
 
 
-                fetch(`http://localhost:5000/cart/${_id}`, {
+                fetch(`https://assignment-10-server-acuzi24t1-nusrathjahan22s-projects.vercel.app/cart/${_id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())

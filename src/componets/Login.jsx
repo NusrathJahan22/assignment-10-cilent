@@ -18,7 +18,7 @@ const Login = () => {
       .then(result => {
         console.log(result.user)
         const user = { email };
-        fetch('http://localhost:5000/user',
+        fetch('https://assignment-10-server-acuzi24t1-nusrathjahan22s-projects.vercel.app/user',
           {
             method: 'POST',
             headers: {

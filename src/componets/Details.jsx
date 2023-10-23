@@ -9,7 +9,7 @@ const Details = () => {
 
     const handelAdd = () => {
         fetch(
-            "http://localhost:5000/addcard",
+            "https://assignment-10-server-acuzi24t1-nusrathjahan22s-projects.vercel.app/addcard",
             {
                 method: "POST",
                 headers: {
